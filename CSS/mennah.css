@@ -344,7 +344,7 @@ a {
 
 @media (max-width: 767px) {
     .landing .container {
-        min-height: calc(100vh - 100px);
+        min-height: calc(100vh - 130px);
     }
 }
 
@@ -1158,6 +1158,13 @@ a {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     position: relative;
+}
+
+@media (max-width: 991px) {
+
+    .dots {
+        display: none;
+    }
 }
 
 .events .container {
